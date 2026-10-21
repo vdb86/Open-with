@@ -24,6 +24,26 @@ Android decides which app opens your links, files and shares, and since Android 
 
 ---
 
+<!-- whats-new:start -->
+## 🆕 What's new in 1.2
+
+- Modes: switch on Work, Personal or a mode of your own, and rules can apply only in that mode. Switch from General, from the chooser, by long-pressing Open with's icon, or let a mode switch itself on a schedule.
+- Rules can apply only on certain days and at certain times, even overnight, or only with headphones or Bluetooth audio connected.
+- Open with can suggest a rule when you keep picking the same app for a website, a sender or a content type. It can also suggest asking each time, a rule for working hours, opening without asking, or removing tracking. It's off until you switch it on in General.
+- Rules can also copy the link, save a copy of a file to a folder, or only save it without opening anything.
+- App compatibility on General shows what each app can open, and why one never shows up in the chooser.
+- Start a rule from 26 templates, or tap New rule in the chooser to build one from the link in front of you.
+- New content types: 2FA setup links, calendar files and subscriptions, contact cards, GPS tracks, live streams, comic books and crypto payment links.
+- New chooser buttons: Later sends a link to your read-later app, plus QR code, Save to, Add to contacts, copying a location or number, and Android's own list. Switch any of them off in Appearance.
+- Clean takes tracking out of a link (or switch it on for every link on the Links page), the chooser warns about lookalike website names, and Edit lists a link's parts.
+- Always ask rules can preselect the app you most likely want.
+- Give your own file types an icon: a Material icon, a picture from your phone, or one from your icon pack.
+
+[All release notes](RELEASE-NOTES.md)
+<!-- whats-new:end -->
+
+---
+
 ## 💼 Made for people who run their work from their phone
 
 Calls, site visits, clients on three messengers. Set it once and stop choosing.

@@ -28,7 +28,7 @@ Android decides which app opens your links, files and shares, and since Android 
 
 Calls, site visits, clients on three messengers. Set it once and stop choosing.
 
-- **Work links in your work browser** - links from Slack or Teams open in the browser you're signed into for work, everything else in your personal one.
+- **Work links in your work browser** - links from Slack or Teams open in the browser you're signed into for work, during office hours if you like, everything else in your personal one.
 - **Addresses straight into navigation** - map pins and addresses from messages and email open in the navigation app you drive with.
 - **Contracts and invoices straight into your signing or PDF app** - no viewer in between, no "open with" list.
 - **A pause only where it counts** - "Always ask" before your bank or payment pages, and nothing in the way everywhere else.
@@ -55,13 +55,17 @@ Bug reports are much easier to act on with a debug log attached: turn on the Deb
 
 - **Any app, not just the ones Android suggests** - Amazon links in the Amazon app, Reddit links in your favourite client, text files in the notepad you actually use.
 - **Rules that open things for you** - YouTube links always in YouTube Morphe, PDFs from Gmail in Acrobat, never offer Chrome for Amazon links. Set it once, and it happens with nothing on screen. See below.
-- **Every kind of content** - links, video and audio streams, images, audio and video files, PDFs, ebooks, Word, Excel and PowerPoint files, text, archives, APKs, torrents, map locations, navigation, email addresses, phone numbers, text messages, Play Store links, web searches and shared items. Add your own file types too.
-- **A page for each content type** - its own default app, "open without asking", hidden apps, sort order, the last app remembered, its own countdown and its own look.
+- **Rules that know the moment** - only on certain days and times, only with headphones or Bluetooth audio connected, or only in a mode you switch on, like Work, Personal or Viewing. Switch modes on General, in the chooser or from Open with's icon on your home screen, or let a mode follow a schedule.
+- **Suggestions from your own habits** - switch on Suggest rules and Open with notices when you keep picking the same app for a website, a sender or a content type, and offers the rule: one app, Always ask between the apps you use, a rule for working hours, opening without asking, or removing tracking. It counts websites by name only, on your phone.
+- **Every kind of content** - links, video and audio streams, live streams (rtsp, rtmp), images, audio and video files, PDFs, ebooks, comic books, Word, Excel and PowerPoint files, text, archives, APKs, torrents, calendar files and subscriptions, contact cards, GPS tracks, map locations, navigation, email addresses, phone numbers, text messages, 2FA setup links, crypto payment links, Play Store links, web searches and shared items. Add your own file types too, each with an icon you pick (a Material icon, a picture or one from your icon pack).
+- **A page for each content type** - its own default app (star it on the Apps page), "open without asking", which apps it offers and in what order, the last one remembered, its own countdown and its own look. The chooser's Settings button takes you straight there.
 - **A chooser you can make your own** - a countdown paused by any touch, grid or list, sizes, corners, width and position on screen, Material You colours from your wallpaper or your own, and over 40 open and close animations, all with a live preview.
-- **Do more than open** - copy, edit or share a link before it opens, or hand it to your download manager.
+- **Do more than open** - copy, edit, clean the tracking out of or share a link before it opens, show it as a QR code, hand it to your download manager, or send it to your read-later or notes app with **Later**. Copy a map location, phone number or email address, add a number or address to your contacts, open a place on a web map, save a copy of a file, or hand anything over to Android's own list.
+- **Rules in seconds** - tap **New rule** in the chooser to build one from the link in front of you, or start from one of 26 templates (work links, YouTube, meetings, a pause before your bank, PDFs from email...).
 - **One app for a while** - hold any app in the chooser to use it for the next 10 minutes or the next 5 links, or to make a rule on the spot.
 - **Sign-ins keep working** - Open with answers custom tab requests, so app sign-ins that need a real browser tab work with Open with as your default browser. Links that apps would show inside themselves can open in your real browser instead.
 - **Help when something doesn't arrive** - "Why isn't this working?" checks your setup, names the app holding a website and shows the steps for your phone. Diagnostics shows exactly which rule would win for any link.
+- **App compatibility** - see what each app can open, and why one never shows up in the chooser: switched off, only its own websites, only for file paths, or left out by a rule.
 - **Android TV** - D-pad friendly throughout.
 - **Backup and restore** - everything in one file you keep.
 
@@ -75,7 +79,8 @@ A rule decides where something opens, so you don't have to choose every time.
 
 - **Open with** one app of your choice, and optionally always in your real browser rather than inside the app that asked.
 - **Never offer** the apps you never want to see for that content.
-- **Always ask**, bringing the chooser back for the things you want to decide each time, even where a default app would open them silently.
+- **Always ask**, bringing the chooser back for the things you want to decide each time, even where a default app would open them silently, with the app you most likely want already picked.
+- **Also** copy the link, or save a copy of the file to a folder you pick, or **only save** it without opening anything.
 
 **What a rule can match on**
 
@@ -83,12 +88,13 @@ A rule decides where something opens, so you don't have to choose every time.
 - **The content type** - links, PDFs, images, map locations and the rest.
 - **The file name** - starts with, ends with, contains, or a regular expression.
 - **The app it came from** - only from these apps, or from any app except these.
+- **When** - on certain days and at certain times (even overnight), in a mode you switch on, or with headphones or Bluetooth audio connected or not.
 
 A rule can list several things to react to ("these websites or these files"), each with its own conditions.
 
 **Living with them**
 
-- **The most specific rule wins**, so a rule for one website beats a rule for all links.
+- **The most specific rule wins**, so a rule for one website beats a rule for all links. Between two rules for the same website, the one whose time, mode or headphones condition is met wins, so "YouTube links to YouTube Morphe" and "YouTube links to YouTube in Viewing mode" just work together.
 - **Rules name themselves** as you build them ("github.com → Firefox", "PDF documents from Gmail → Adobe Acrobat"), or you give them your own name.
 - **Hold an app in the chooser** to make a rule for that website or content type without leaving what you were doing.
 
@@ -120,7 +126,7 @@ A rule can list several things to react to ("these websites or these files"), ea
 - **No account, no sign-up, no email required.**
 - **The Debug Log is optional**, off by default, and stays on your phone unless you share it.
 
-Open with only needs to see which apps are installed (see below). Setting it as your default browser is optional and only needed for web links.
+Open with only needs to see which apps are installed (see below). Setting it as your default browser is optional and only needed for web links. If you open APK files through it, Android also asks you to allow "Install unknown apps" for Open with, because Android's installer only accepts a file from an app that is allowed to hand it over. Open with never downloads or installs anything by itself.
 
 ---
 
@@ -146,7 +152,7 @@ If something reads wrong in your language, please [report it](../../issues/new?t
 
 - Available in **50 languages** (see above).
 - Works on **Android 10 and newer**, on phones, tablets and Android TV.
-- **Free, with an optional one-time upgrade.** Web links, website rules (including "never offer", "always ask", "always open in the browser" and the app a link came from), the chooser and its colours, backup, Diagnostics, custom tab support and Android TV are free. Open with Pro, a single purchase with no subscription, adds every other content type, the countdown, per-type settings, any app as a target, temporary choices, file name rules, your own file types, and the chooser's extra actions and looks.
+- **Free, with an optional one-time upgrade.** Everything for web links is free: every kind of website rule (with times, modes and headphones), any app as the target, rule suggestions, the countdown, the chooser's actions, temporary choices, every look and animation, Diagnostics, custom tab support and Android TV. Open with Pro, a single purchase with no subscription, adds files, maps, email, calls, messages, shares, web searches and every other content type, with all the same settings, plus your own file types with an icon of your choice, and backup and restore.
 - An app that already holds a website, or a phone maker's own settings, can get in first. "Why isn't this working?" tells you which, and how to fix it.
 - **Using a work profile?** Apps inside it can't be reached from your personal profile, and links tapped there never arrive. Install Open with in the work profile too: each side has its own rules.
 - Never shows up in your recent apps.

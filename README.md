@@ -25,19 +25,9 @@ Android decides which app opens your links, files and shares, and since Android 
 ---
 
 <!-- whats-new:start -->
-## 🆕 What's new in 1.2
+## 🆕 What's new in 1.2.1
 
-- Modes: switch on Work, Personal or a mode of your own, and rules can apply only in that mode. Switch from General, from the chooser, by long-pressing Open with's icon, or let a mode switch itself on a schedule.
-- Rules can apply only on certain days and at certain times, even overnight, or only with headphones or Bluetooth audio connected.
-- Open with can suggest a rule when you keep picking the same app for a website, a sender or a content type. It can also suggest asking each time, a rule for working hours, opening without asking, or removing tracking. It's off until you switch it on in General.
-- Rules can also copy the link, save a copy of a file to a folder, or only save it without opening anything.
-- App compatibility on General shows what each app can open, and why one never shows up in the chooser.
-- Start a rule from 26 templates, or tap New rule in the chooser to build one from the link in front of you.
-- New content types: 2FA setup links, calendar files and subscriptions, contact cards, GPS tracks, live streams, comic books and crypto payment links.
-- New chooser buttons: Later sends a link to your read-later app, plus QR code, Save to, Add to contacts, copying a location or number, and Android's own list. Switch any of them off in Appearance.
-- Clean takes tracking out of a link (or switch it on for every link on the Links page), the chooser warns about lookalike website names, and Edit lists a link's parts.
-- Always ask rules can preselect the app you most likely want.
-- Give your own file types an icon: a Material icon, a picture from your phone, or one from your icon pack.
+- Backup and restore is now free for everyone.
 
 [All release notes](RELEASE-NOTES.md)
 <!-- whats-new:end -->
@@ -86,6 +76,7 @@ Bug reports are much easier to act on with a debug log attached: turn on the Deb
 - **Sign-ins keep working** - Open with answers custom tab requests, so app sign-ins that need a real browser tab work with Open with as your default browser. Links that apps would show inside themselves can open in your real browser instead.
 - **Help when something doesn't arrive** - "Why isn't this working?" checks your setup, names the app holding a website and shows the steps for your phone. Diagnostics shows exactly which rule would win for any link.
 - **App compatibility** - see what each app can open, and why one never shows up in the chooser: switched off, only its own websites, only for file paths, or left out by a rule.
+- **Safer links** - a link whose website name could pass for another (a Cyrillic "а" in pаypal.com, a capital I in place of an l) never opens by itself: the chooser warns and shows the real name. An app that throws a link straight back is marked and never picked for you, so links can't bounce in a loop. 2FA setup links reach your authenticator, but their secret never shows on screen or in the log. Edit lists a link's parts, so you can open just one or remove the ones you don't want.
 - **Android TV** - D-pad friendly throughout.
 - **Backup and restore** - everything in one file you keep.
 
@@ -172,7 +163,7 @@ If something reads wrong in your language, please [report it](../../issues/new?t
 
 - Available in **50 languages** (see above).
 - Works on **Android 10 and newer**, on phones, tablets and Android TV.
-- **Free, with an optional one-time upgrade.** Everything for web links is free: every kind of website rule (with times, modes and headphones), any app as the target, rule suggestions, the countdown, the chooser's actions, temporary choices, every look and animation, Diagnostics, custom tab support and Android TV. Open with Pro, a single purchase with no subscription, adds files, maps, email, calls, messages, shares, web searches and every other content type, with all the same settings, plus your own file types with an icon of your choice, and backup and restore.
+- **Free, with an optional one-time upgrade.** Everything for web links is free: every kind of website rule (with times, modes and headphones), any app as the target, rule suggestions, the countdown, the chooser's actions, temporary choices, every look and animation, Diagnostics, backup and restore, custom tab support and Android TV. Open with Pro, a single purchase with no subscription, adds files, maps, email, calls, messages, shares, web searches and every other content type, with all the same settings, plus your own file types with an icon of your choice.
 - An app that already holds a website, or a phone maker's own settings, can get in first. "Why isn't this working?" tells you which, and how to fix it.
 - **Using a work profile?** Apps inside it can't be reached from your personal profile, and links tapped there never arrive. Install Open with in the work profile too: each side has its own rules.
 - Never shows up in your recent apps.

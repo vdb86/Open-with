@@ -2,6 +2,10 @@
 
 What changed in each version of [Open with](https://play.google.com/store/apps/details?id=com.openwith.app), newest first. The same text as the app's What's new page.
 
+## 1.2.1
+
+- Backup and restore is now free for everyone.
+
 ## 1.2
 
 - Modes: switch on Work, Personal or a mode of your own, and rules can apply only in that mode. Switch from General, from the chooser, by long-pressing Open with's icon, or let a mode switch itself on a schedule.

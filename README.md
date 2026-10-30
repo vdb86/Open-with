@@ -71,6 +71,7 @@ Bug reports are much easier to act on with a debug log attached: turn on the Deb
 - **A page for each content type** - its own default app (star it on the Apps page), "open without asking", which apps it offers and in what order, the last one remembered, its own countdown and its own look. The chooser's Settings button takes you straight there.
 - **A chooser you can make your own** - a countdown paused by any touch, grid or list, sizes, corners, width and position on screen, Material You colours from your wallpaper or your own, and over 40 open and close animations, all with a live preview.
 - **Do more than open** - copy, edit, clean the tracking out of or share a link before it opens, show it as a QR code, hand it to your download manager, or send it to your read-later or notes app with **Later**. Copy a map location, phone number or email address, add a number or address to your contacts, open a place on a web map, save a copy of a file, or hand anything over to Android's own list.
+- **Private tabs** - switch on **Private** in the chooser and tap a browser, or hold one and choose "Open in a private tab", or let a rule open a website privately every time. Firefox and the browsers built on it take the link straight into a private tab. Chrome-based browsers (Chrome, Brave, Vivaldi...) and Opera open only an empty private tab for other apps, so Open with's optional accessibility service types the link in for you.
 - **Rules in seconds** - tap **New rule** in the chooser to build one from the link in front of you, or start from one of 26 templates (work links, YouTube, meetings, a pause before your bank, PDFs from email...).
 - **One app for a while** - hold any app in the chooser to use it for the next 10 minutes or the next 5 links, or to make a rule on the spot.
 - **Sign-ins keep working** - Open with answers custom tab requests, so app sign-ins that need a real browser tab work with Open with as your default browser. Links that apps would show inside themselves can open in your real browser instead.
@@ -88,7 +89,7 @@ A rule decides where something opens, so you don't have to choose every time.
 
 **What a rule can do**
 
-- **Open with** one app of your choice, and optionally always in your real browser rather than inside the app that asked.
+- **Open with** one app of your choice, and optionally always in your real browser rather than inside the app that asked, or in a browser's private tab.
 - **Never offer** the apps you never want to see for that content.
 - **Always ask**, bringing the chooser back for the things you want to decide each time, even where a default app would open them silently, with the app you most likely want already picked.
 - **Also** copy the link, or save a copy of the file to a folder you pick, or **only save** it without opening anything.
@@ -139,6 +140,8 @@ A rule can list several things to react to ("these websites or these files"), ea
 
 Open with only needs to see which apps are installed (see below). Setting it as your default browser is optional and only needed for web links. If you open APK files through it, Android also asks you to allow "Install unknown apps" for Open with, because Android's installer only accepts a file from an app that is allowed to hand it over. Open with never downloads or installs anything by itself.
 
+The **accessibility service** is optional, off until you switch it on (General > Accessibility service), and only needed for private tabs in Chrome-based browsers and Opera: when you choose a private tab, it finds that browser's address bar, types the link in, presses Enter and closes the keyboard. Until then it listens to Open with's own windows only, and to that one browser only while the link goes in. It keeps nothing and sends nothing anywhere. Firefox needs none of this.
+
 ---
 
 ## 🔑 Why Open with can see your installed apps
@@ -163,7 +166,7 @@ If something reads wrong in your language, please [report it](../../issues/new?t
 
 - Available in **50 languages** (see above).
 - Works on **Android 10 and newer**, on phones, tablets and Android TV.
-- **Free, with an optional one-time upgrade.** Everything for web links is free: every kind of website rule (with times, modes and headphones), any app as the target, rule suggestions, the countdown, the chooser's actions, temporary choices, every look and animation, Diagnostics, backup and restore, custom tab support and Android TV. Open with Pro, a single purchase with no subscription, adds files, maps, email, calls, messages, shares, web searches and every other content type, with all the same settings, plus your own file types with an icon of your choice.
+- **Free, with an optional one-time upgrade.** Everything for web links is free: every kind of website rule (with times, modes and headphones), private tabs, any app as the target, rule suggestions, the countdown, the chooser's actions, temporary choices, every look and animation, Diagnostics, backup and restore, custom tab support and Android TV. Open with Pro, a single purchase with no subscription, adds files, maps, email, calls, messages, shares, web searches and every other content type, with all the same settings, plus your own file types with an icon of your choice.
 - An app that already holds a website, or a phone maker's own settings, can get in first. "Why isn't this working?" tells you which, and how to fix it.
 - **Using a work profile?** Apps inside it can't be reached from your personal profile, and links tapped there never arrive. Install Open with in the work profile too: each side has its own rules.
 - Never shows up in your recent apps.

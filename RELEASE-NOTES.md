@@ -2,6 +2,11 @@
 
 What changed in each version of [Open with](https://play.google.com/store/apps/details?id=com.openwith.app), newest first. The same text as the app's What's new page.
 
+## 1.3
+
+- Private tabs: switch on Private in the chooser and tap a browser, or long-press one and choose "Open in a private tab". A rule can open a website in a private tab every time.
+- Firefox opens the link straight in a private tab. Chrome-based browsers and Opera need Open with's accessibility service, which types the link in for you (General > Accessibility service).
+
 ## 1.2.1
 
 - Backup and restore is now free for everyone.

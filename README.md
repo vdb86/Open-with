@@ -35,6 +35,14 @@ Android decides which app opens your links, files and shares, and since Android 
 
 ---
 
+## 🕶️ Private tabs, from any app
+
+Chrome, Brave, Vivaldi and Opera don't let other apps open a link in a private tab: they open an empty one at most. **Open with does it for you.** Switch on **Private** in the chooser and tap a browser, hold a browser and choose "Open in a private tab", or let a rule open a website privately every time.
+
+Firefox and the browsers built on it take the link straight into a private tab. For Chrome-based browsers and Opera, Open with opens the new private tab and its optional accessibility service types the link in (see [Your privacy comes first](#-your-privacy-comes-first)).
+
+---
+
 ## 💼 Made for people who run their work from their phone
 
 Calls, site visits, clients on three messengers. Set it once and stop choosing.

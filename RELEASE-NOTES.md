@@ -2,6 +2,32 @@
 
 What changed in each version of [Open with](https://play.google.com/store/apps/details?id=com.openwith.app), newest first. The same text as the app's What's new page.
 
+## 1.4
+
+- Google Maps links, short ones included, now open in apps like Uber that only take a location. A short link is looked up with Google first when the app you picked can't open it.
+- The remembered app now fits the link: an app you picked for its own links is no longer suggested for every other link.
+- Change links on the Links page turns a link into another before an app is chosen: an embed site back to the original, a Shorts video as a normal one, or a parameter taken out. The chooser can offer the original and each version.
+- Appearance has new settings for how apps and buttons look: highlight colour, outlines, fills and button shape. The chosen mode or link button is now marked the same way as the selected app.
+- The countdown's ring and seconds can be hidden separately, and the seconds can sit at the top. Both are in Appearance, also per content type.
+- App names can take up to three lines, and the chooser can close with a different animation than it opens with.
+- An Always ask rule can give its chooser a look of its own.
+- Rule templates can ask first, with their app already selected, instead of opening it directly. New templates for YouTube Music, Spotify, TIDAL, the Play Store and Google Maps.
+- Modes can be switched off as a whole without losing them.
+- The Content types list shows each type's status next to its icon.
+- When something you share contains a link, Open as link in the chooser opens it like a tapped link. Shared items can also list apps that don't take shares; they open the link instead.
+- On the Links page, "Change the link for an app" is for apps that take a link only in their own form, such as with text added in front. The chooser offers them for their websites, and they always get the link in that form.
+- Remember Private: Private stays on for your next links until you switch it off. Always ask rules can start it on too.
+- In-app view: choose apps that do the opposite of your setting, and let the chooser remember your choice per app or for all. Rules can now open in the browser or keep the in-app view, on Always ask too.
+- New chooser buttons: Share with, Edit rule, and your own buttons that send a link to an app in one tap.
+- Put the chooser's buttons in your own order, and fill the apps from the right.
+- Rules can have their own icon, and Always ask rules their own countdown.
+- Modes can switch on by themselves with the network: on Wi-Fi, on mobile data, with no connection, while roaming or on a mobile network you name.
+- Appearance lists every chooser button in one place: switch it on or off, drag it into your own order and give it your own icon. The icons beside the link too.
+- The Rules tab points out rules that can never apply, such as one hidden by another rule with the same conditions, and says why.
+- When shared text holds an address, phone number or email address, Open as link opens it. With several links or items, it lists them to pick from.
+- Share rules with another phone: pick them on the Rules tab and send or save them as one file. Import rules there adds them next to the rules already on the phone, with the modes they use.
+- With TalkBack on, the chooser waits for your choice and says which app is selected. General has a switch to keep the countdown, read out loud.
+
 ## 1.3
 
 - Private tabs: switch on Private in the chooser and tap a browser, or long-press one and choose "Open in a private tab". A rule can open a website in a private tab every time.
